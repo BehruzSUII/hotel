@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/bgc.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 10vh;
+    width: 100%;
+}
+.img1 {
+    margin-left: 150px;
+}
+nav a {
+    margin: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 1s;
+}
+.img2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 20px;
+    align-items: center;
+}
+.img2 h4 {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-weight: 100;
+}
+.overall {
+    display: flex;
+    gap: 25px;
+    margin: 50px 125px;
+}
+.box{
+    color: #fff;
+}
+.text1 {
+    font-size: 39px;
+   
+}
+.text2{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.text {
+    letter-spacing: 1px;
+    display: flex; 
+    align-items: center;
+    gap: 10px;   
+}
+.text3{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.text4{
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 20;
+}
+nav a:hover{
+    color: rgba(255, 255, 255, 0.624);
+}
